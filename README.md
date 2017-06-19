@@ -64,6 +64,13 @@ range and options.
 If you are using the Logs Event Source, then you can have extra data included in
 the generated CSV file by checking the boxes under the Extra CSV Info to Include.
 
+With this program, you can display:
+* Bar Charts
+* Heat Maps
+* Pivot Tables
+* Sankey Diagrams
+* Trees/Dendrograms
+
 
 ## Resources
 

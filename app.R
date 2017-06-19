@@ -144,7 +144,7 @@ ui <- tagList(
                      sidebarPanel(
                        uiOutput("bar"),
                        selectInput("blowColor", "Low Color", ourColors, selected = "blue"),
-                       selectInput("bhighColor", "High Color", ourColors, selected = "blue"),
+                       selectInput("bhighColor", "High Color", ourColors, selected = "red"),
                        width = 3
                      ),
                      # Show a plot of the generated distribution

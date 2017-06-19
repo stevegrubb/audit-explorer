@@ -1,6 +1,8 @@
 #
 # Audit-explorer  Copyright 2017 Steve Grubb <sgrubb@redhat.com>
 #
+# Version 0.8
+#
 # This program is released under the GNU Affero General Public License v3.0
 #
 

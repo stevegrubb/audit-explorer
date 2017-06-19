@@ -3,6 +3,7 @@
 audit-explorer is an R shiny app that visualizes Linux audit data using many
 tools all in one app.
 
+
 ## Requirements
 
 **audit-explorer** runs under RStudio. You should either download a copy of it
@@ -25,6 +26,7 @@ It also uses the ausearch command to create the data files it needs to analyze.
 To have working CSV generation, you should have the Linux audit-2.7.5 or later
 package installed on your system.
 
+
 ## Installing
 
 The application is self-contained. It will expect the following directory structure:
@@ -37,11 +39,12 @@ Then go into /etc/audit/auditd.conf and set log_group = wheel. It does not have
 to be wheel, but the group added to your account must match the one auditd.conf
 has. Then restart auditd so that it can fix the directory permissions.
 
+
 ## Example use
 
 1) Start up RStudio
 2) Click on File|Open File...
-3) Select app.R (wherever you put it)
+3) Select app.R (wherever you put it ~/R/audit/explorer is recommended)
 4) In the code pane, click on the Run App button
 5) Click the Load Events button and wait for the text below it to change
 6) If it says success, then click on the Filter tab at the top
@@ -53,6 +56,7 @@ Operand1, Operator, Operand2 drop boxes and then click Filter Events. If you
 want to go back to all events, then just click on Use All Events again. This
 page always lets you know how many events out of the total are selected.
 
+
 ## Resources
 
 There has been discussion about the different diagrams and source code here:
@@ -60,6 +64,7 @@ http://security-plus-data-science.blogspot.com/
 
 Questions may be asked on the Linux Audit Mail List:
 https://www.redhat.com/mailman/listinfo/linux-audit
+
 
 ## License
 

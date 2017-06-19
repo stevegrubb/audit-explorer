@@ -56,6 +56,14 @@ Operand1, Operator, Operand2 drop boxes and then click Filter Events. If you
 want to go back to all events, then just click on Use All Events again. This
 page always lets you know how many events out of the total are selected.
 
+You can also place a CSV file at ~/R/audit-data/audit.csv
+Then it can be opened using "Standard CSV" radio button from the Source menu
+item. If you do this, the program assumes you have already preselected the time
+range and options.
+
+If you are using the Logs Event Source, then you can have extra data included in
+the generated CSV file by checking the boxes under the Extra CSV Info to Include.
+
 
 ## Resources
 

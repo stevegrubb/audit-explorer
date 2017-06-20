@@ -79,15 +79,19 @@ the generated CSV file by checking the boxes under the Extra CSV Info to Include
 
 ## Screenshots
 ###Heat Map
+
 ![heatmap](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/heatmap.png)
 
 ###Bar Chart
+
 ![chart](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/chart.png)
 
 ###Pivot Table
+
 ![pivot table](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/pivot.png)
 
 ###Sankey Diagram
+
 ![sankey](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/sankey.png)
 
 ## Resources

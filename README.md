@@ -8,6 +8,7 @@ tools all in one app. With this program, you can interactively display:
 * Sankey Diagrams
 * Trees/Dendrograms
 
+See below for some screenshots.
 
 ## Requirements
 
@@ -28,7 +29,7 @@ It also requires the following R libraries to be installed in RStudio:
 * ggplot2
 
 It also uses the ausearch command to create the data files it needs to analyze.
-To have working CSV generation, you should have the Linux audit-2.7.5 or later
+To have working CSV generation, you should have the Linux **audit-2.7.5** or later
 package installed on your system.
 
 
@@ -76,6 +77,18 @@ range and options.
 If you are using the Logs Event Source, then you can have extra data included in
 the generated CSV file by checking the boxes under the Extra CSV Info to Include.
 
+## Screenshots
+Heat Map
+![heatmap](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/heatmap.png)
+
+Bar Chart
+![chart](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/chart.png)
+
+Pivot Table
+![pivot table](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/pivot.png)
+
+Sankey Diagram
+![sankey](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/sankey.png)
 
 ## Resources
 

@@ -78,16 +78,16 @@ If you are using the Logs Event Source, then you can have extra data included in
 the generated CSV file by checking the boxes under the Extra CSV Info to Include.
 
 ## Screenshots
-Heat Map
+###Heat Map
 ![heatmap](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/heatmap.png)
 
-Bar Chart
+###Bar Chart
 ![chart](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/chart.png)
 
-Pivot Table
+###Pivot Table
 ![pivot table](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/pivot.png)
 
-Sankey Diagram
+###Sankey Diagram
 ![sankey](https://raw.githubusercontent.com/stevegrubb/audit-explorer/assets/images/sankey.png)
 
 ## Resources

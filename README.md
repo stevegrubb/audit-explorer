@@ -1,7 +1,12 @@
 # audit-explorer
 
 audit-explorer is an R shiny app that visualizes Linux audit data using many
-tools all in one app.
+tools all in one app. With this program, you can interactively display:
+* Bar Charts
+* Heat Maps
+* Pivot Tables
+* Sankey Diagrams
+* Trees/Dendrograms
 
 
 ## Requirements
@@ -70,13 +75,6 @@ range and options.
 
 If you are using the Logs Event Source, then you can have extra data included in
 the generated CSV file by checking the boxes under the Extra CSV Info to Include.
-
-With this program, you can display:
-* Bar Charts
-* Heat Maps
-* Pivot Tables
-* Sankey Diagrams
-* Trees/Dendrograms
 
 
 ## Resources

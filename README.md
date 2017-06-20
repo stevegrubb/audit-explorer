@@ -50,6 +50,9 @@ in ~/R/audit-explorer/.
 2) Click on File|Open File...
 3) Select app.R (wherever you put it ~/R/audit-explorer/ is recommended)
 4) In the code pane, click on the Run App button
+
+The program should start up. When its ready...
+
 5) Click the Load Events button and wait for the text below it to change
 6) If it says success, then click on the Filter tab at the top
 7) Click on Use All Events

@@ -29,7 +29,7 @@ package installed on your system.
 
 ## Installing
 
-The application is self-contained. It will expect the following directory structure:
+The application is self-contained. It will expect the following directory structure to exist:
 
 ~/R/audit-data
 
@@ -39,12 +39,16 @@ Then go into /etc/audit/auditd.conf and set log_group = wheel. It does not have
 to be wheel, but the group added to your account must match the one auditd.conf
 has. Then restart auditd so that it can fix the directory permissions.
 
+You can copy app.R to anywhere you want. You just cannot rename it. RStudio
+expects shiny applications to be named app.R. I would recommend placing it
+in ~/R/audit-explorer/.
+
 
 ## Example use
 
 1) Start up RStudio
 2) Click on File|Open File...
-3) Select app.R (wherever you put it ~/R/audit/explorer is recommended)
+3) Select app.R (wherever you put it ~/R/audit-explorer/ is recommended)
 4) In the code pane, click on the Run App button
 5) Click the Load Events button and wait for the text below it to change
 6) If it says success, then click on the Filter tab at the top

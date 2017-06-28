@@ -428,7 +428,7 @@ server <- shinyServer(function(input, output) {
         final = data.frame(date=as.POSIXct(month$t, format="%Y-%m-%d", tz="GMT"))
         final$num <- month$x
         final$j <- months(as.Date(final$date)) # Intermediate value
-        final$x <- factor(final$j, levels = final$j)
+        final$x <- factor(final$j, levels = unique(final$j))
         final$y <- as.numeric(format(final$date, "%d"))
         bag <- list()
         bag$yscale <- c(1, 31)
@@ -447,7 +447,7 @@ server <- shinyServer(function(input, output) {
           final = data.frame(date=as.POSIXct(day$t, format="%Y-%m-%d %H", tz="GMT"))
           final$num <- day$x
           final$j <- format(final$date, format="%d") # Intermediate value
-          final$x <- factor(final$j, levels = final$j)
+          final$x <- factor(final$j, levels = unique(final$j))
           final$y <- as.numeric(format(final$date, "%H"))
           bag <- list()
           bag$yscale <- c(0, 23)
@@ -460,7 +460,7 @@ server <- shinyServer(function(input, output) {
           final = data.frame(date=as.POSIXct(day$t, format="%Y-%m-%d %H", tz="GMT"))
           final$num <- day$x
           final$j <- weekdays(as.Date(final$date)) # Intermediate value
-          final$x <- factor(final$j, levels = final$j)
+          final$x <- factor(final$j, levels = unique(final$j))
           final$y <- as.numeric(format(final$date, "%H"))
           bag <- list()
           bag$yscale <- c(0, 23)
@@ -479,7 +479,7 @@ server <- shinyServer(function(input, output) {
             final = data.frame(date=as.POSIXct(hour$t, format="%Y-%m-%d %H:%M", tz="GMT"))
             final$num <- hour$x
             final$j <- format(final$date, format="%H") # Intermediate value
-            final$x <- factor(final$j, levels = final$j)
+            final$x <- factor(final$j, levels = unique(final$j))
             final$y <- as.numeric(format(final$date, "%M"))
             bag <- list()
             bag$yscale <- c(0, 59)
@@ -498,7 +498,7 @@ server <- shinyServer(function(input, output) {
               final = data.frame(date=as.POSIXct(minute$t, format="%Y-%m-%d %H:%M:%S", tz="GMT"))
               final$num <- minute$x
               final$j <- format(final$date, format="%M") # Intermediate value
-              final$x <- factor(final$j, levels = final$j)
+              final$x <- factor(final$j, levels = unique(final$j))
               final$y <- as.numeric(format(final$date, "%S"))
               bag <- list()
               bag$yscale <- c(0, 59)
@@ -510,7 +510,7 @@ server <- shinyServer(function(input, output) {
               final = data.frame(date=as.POSIXct(minute$t, format="%Y-%m-%d %H:%M:%S", tz="GMT"))
               final$num <- minute$x
               final$j <- format(final$date, format="%S") # Intermediate value
-              final$x <- factor(final$j, levels = final$j)
+              final$x <- factor(final$j, levels = unique(final$j))
               final$y <- as.numeric(format(final$date, "%S"))
               bag <- list()
               bag$yscale <- c(0, 59)
@@ -569,7 +569,7 @@ server <- shinyServer(function(input, output) {
       final = data.frame(date=as.POSIXct(temp$t, format="%Y-%m-%d %H", tz="GMT"))
       final$num <- temp$x
       final$day <- weekdays(as.Date(final$date))
-      final$oday <- factor(final$day, levels = final$day)
+      final$oday <- factor(final$day, levels = unique(final$day))
       final$hour <- as.numeric(format(final$date, "%H"))
       
       output$barPlot<-renderPlot({

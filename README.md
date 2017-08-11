@@ -102,6 +102,18 @@ http://security-plus-data-science.blogspot.com/
 Questions may be asked on the Linux Audit Mail List:
 https://www.redhat.com/mailman/listinfo/linux-audit
 
+## Feedback
+
+Audit explorer allows you to build different reports and diagrams based on
+the contents of the audit trail. Your feedback about what kinds of diagrams,
+reports, or dashboards that you would like to see pre-canned as a part of
+an audit reporting tool would be greatly appreciated. It may be a part of this
+tool or some other web based tool being considered for the future. For
+example if you are interested in a heat map to detect anomalies, should there
+be any pre-filtering by default? Any ideas, suggestions, and proposals with
+or without screenshots are welcome. Please send them to the linux-audit mail
+list (see above) or you may file an issue - whichever is easiest. Your
+contributions and feedback are greatly appreciated.
 
 ## License
 

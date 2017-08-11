@@ -300,7 +300,7 @@ server <- shinyServer(function(input, output) {
     audit$one <<- rep(1,nrow(audit))
     events <<- reactive({ nrow(audit) })
     subaudit <<- audit                            # Consider making this reactiveValues(subaudit <- audit)
-    sevents <<- reactive({ nrow(subaudit) })
+    sevents <<- reactive({ 0 })
     show(selector = "#navbar li a[data-value=tab2]")
     
     # Create all the controls based on the logs

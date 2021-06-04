@@ -8,8 +8,8 @@
 
 library(shiny)
 library(shinyjs)
-library(dplyr)
 library(plyr)
+library(dplyr)
 library(networkD3)
 library(rpivotTable)
 library(data.tree)
@@ -754,7 +754,6 @@ server <- shinyServer(function(input, output) {
       diagonalNetwork(List = b, fontSize = 10)
     })
   })
-    
 })
 
 # Run the application 
